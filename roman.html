@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="test/convertToRomanNumeral.js"></script>
+	<script>
+	function convert() {
+		var arabic = parseInt(document.getElementById('arabic').value);	
+		document.getElementById('roman').innerHTML = convertToRomanNumeral(arabic);;
+	}
+	</script>
+</head>
+<body>
+	<form onsubmit="event.preventDefault(); convert();">
+		<input id="arabic" type="text"></input>
+		<button type="submit">convert!</button>
+
+		<h3 id="roman"></h3>
+	</form>
+</body>

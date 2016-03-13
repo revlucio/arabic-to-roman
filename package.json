@@ -1,0 +1,13 @@
+{
+  "name": "arabic-to-roman",
+  "version": "1.0.0",
+  "description": "a simple arabic to roman converter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/revlucio/arabic-to-roman.git"
+  },
+  "dependencies": {
+    "should": "^8.2.2"
+  },
+  "license": "GPL-3.0"
+}
